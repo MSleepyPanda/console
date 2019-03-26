@@ -1,0 +1,8 @@
+[package]
+name = "demo_subscriber"
+version = "0.1.0"
+authors = ["Matthias Prechtl <m.sleepypanda@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio-trace = { git = "https://github.com/tokio-rs/tokio" }
